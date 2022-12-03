@@ -113,6 +113,14 @@ main .galeria .galeria__images img {
   }
 }
 
+@media(min-width:990px) and (max-width: 1024px) {
+  main .galeria .galeria__images img {
+    width: 200px;
+    height: 200px;
+    margin: 15px 0px;
+  }
+}
+
 main .galeria .galeria__images img:hover {
   transform: scale(1, 1);
   -webkit-transform: scale(1.1);
